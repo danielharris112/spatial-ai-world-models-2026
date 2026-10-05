@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c071e"/>
+      <stop offset="50%" stop-color="#190d33"/>
+      <stop offset="100%" stop-color="#04020a"/>
+    </linearGradient>
+    <linearGradient id="sGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff758c"/>
+      <stop offset="50%" stop-color="#ff7eb3"/>
+      <stop offset="100%" stop-color="#fda085"/>
+    </linearGradient>
+    <linearGradient id="sCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d154a"/>
+      <stop offset="100%" stop-color="#180b2a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="500" rx="18" fill="url(#bg2)"/>
+
+  <!-- Perspective grid overlay -->
+  <g stroke="#ff7eb3" stroke-opacity="0.08" stroke-width="1">
+    <line x1="0" y1="130" x2="1200" y2="130" />
+    <line x1="0" y1="250" x2="1200" y2="250" />
+    <line x1="0" y1="370" x2="1200" y2="370" />
+    <line x1="250" y1="0" x2="250" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+    <line x1="950" y1="0" x2="950" y2="500" />
+  </g>
+
+  <!-- Badge -->
+  <rect x="380" y="40" width="440" height="34" rx="17" fill="#3a0ca3" stroke="#f72585" stroke-width="1.5"/>
+  <text x="600" y="63" fill="#ff7eb3" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">🌐 SPATIAL INTELLIGENCE &amp; WORLD MODELS</text>
+
+  <!-- Headline -->
+  <text x="600" y="125" fill="url(#sGrad)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="44" font-weight="900" text-anchor="middle">REAL-TIME 4D WORLD GENERATION</text>
+  <text x="600" y="160" fill="#fbc4ab" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" text-anchor="middle">Diffusion World Simulators, Dynamic 3DGS &amp; Embodied Physics AI</text>
+
+  <!-- 3 Cards -->
+  <g transform="translate(80, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#sCard)" stroke="#ff758c" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#ff758c" font-size="22">🪐</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">4D World Simulators</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Physics-conditioned video priors</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Continuous world state transition</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Interactive action-conditioned loops</text>
+    <rect x="30" y="175" width="85" height="20" rx="6" fill="#b5179e" fill-opacity="0.4"/>
+    <text x="72" y="189" fill="#f72585" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">60 FPS REALTIME</text>
+  </g>
+
+  <g transform="translate(440, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#sCard)" stroke="#ff7eb3" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#ff7eb3" font-size="22">📐</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Gaussian Splatting</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Dynamic deformable 3DGS</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Sub-millisecond photoreal raster</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">LiDAR + Monocular stereo fusion</text>
+    <rect x="30" y="175" width="95" height="20" rx="6" fill="#7209b7" fill-opacity="0.4"/>
+    <text x="77" y="189" fill="#fbc4ab" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">ZERO OCCLUSION</text>
+  </g>
+
+  <g transform="translate(800, 220)">
+    <rect width="320" height="210" rx="16" fill="url(#sCard)" stroke="#fda085" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="40" y="50" fill="#fda085" font-size="22">🦾</text>
+    <text x="75" y="48" fill="#f8fafc" font-family="sans-serif" font-size="18" font-weight="700">Embodied Robotics</text>
+    <text x="30" y="95" fill="#94a3b8" font-family="sans-serif" font-size="14">Vision-Language-Action (VLA)</text>
+    <text x="30" y="125" fill="#94a3b8" font-family="sans-serif" font-size="14">Humanoid kinematic path solvers</text>
+    <text x="30" y="155" fill="#94a3b8" font-family="sans-serif" font-size="14">Sim-to-Real zero shot transfer</text>
+    <rect x="30" y="175" width="95" height="20" rx="6" fill="#480ca8" fill-opacity="0.4"/>
+    <text x="77" y="189" fill="#ffb4a2" font-family="sans-serif" font-size="11" font-weight="700" text-anchor="middle">END-TO-END VLA</text>
+  </g>
+</svg>
